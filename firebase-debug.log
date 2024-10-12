@@ -1,0 +1,21 @@
+[debug] [2024-10-11T13:54:34.033Z] ----------------------------------------------------------------------
+[debug] [2024-10-11T13:54:34.041Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\MIYIAGI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-10-11T13:54:34.042Z] CLI Version:   13.22.0
+[debug] [2024-10-11T13:54:34.043Z] Platform:      win32
+[debug] [2024-10-11T13:54:34.043Z] Node Version:  v20.11.1
+[debug] [2024-10-11T13:54:34.044Z] Time:          Fri Oct 11 2024 14:54:34 GMT+0100 (West Africa Standard Time)
+[debug] [2024-10-11T13:54:34.045Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-10-11T13:54:34.058Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-10-11T13:54:34.061Z] > authorizing via signed-in user (stephenmayowa112@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\MIYIAGI\Desktop\athletesOnChain
+

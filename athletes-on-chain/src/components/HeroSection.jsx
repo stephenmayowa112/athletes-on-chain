@@ -3,7 +3,7 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <section className="bg-gray-800 text-white min-h-screen flex flex-col justify-center items-center text-center p-4">
+    <section className="bg-gray-800 text-white min-h-screen flex flex-col justify-center items-center text-center p-2">
       <h1 className="text-4xl md:text-6xl font-bold mb-4">
         Welcome to Athletes On-Chain
       </h1>
