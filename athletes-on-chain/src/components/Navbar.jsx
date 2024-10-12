@@ -10,7 +10,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="bg-black p-4 fixed top-0 left-0 w-full z-50">
+    <nav className="bg-gray-700 p-4 fixed top-0 left-0 w-full z-50">
       <div className="flex justify-between items-center">
         <div className="text-white text-lg font-bold">Athletes On-Chain</div>
 

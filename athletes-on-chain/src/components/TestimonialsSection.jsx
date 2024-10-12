@@ -53,7 +53,7 @@ const TestimonialsSection = () => {
   }, []);
 
   return (
-    <section className="py-14 bg-gray-100">
+    <section className="py-14 custom-gradient">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl font-bold mb-12">What People Are Saying</h2>
 
