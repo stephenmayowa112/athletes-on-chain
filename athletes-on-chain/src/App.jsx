@@ -7,6 +7,7 @@ import HowItWorksSection from "./components/HowItWorksSection";
 import TestimonialsSection from "./components/TestimonialsSection";
 import CTASection from "./components/CTASection";
 import UserProfilesSection from "./components/UserProfilesSection";
+import EventListingsSection from "./components/EventListingsSection";
 import "./index.css"; 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
       <TestimonialsSection/>
       <CTASection/>
       <UserProfilesSection/>
+      <EventListingsSection/>
     </div>
   );
 };
