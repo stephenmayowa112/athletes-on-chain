@@ -9,7 +9,7 @@ import CTASection from "./components/CTASection";
 import UserProfilesSection from "./components/UserProfilesSection";
 import EventListingsSection from "./components/EventListingsSection";
 import SponsorshipRequestsSection from "./SponsorshipRequestsSection";
-import Footer from "./components/Footer";
+import Footer from "./Footer";
 import "./index.css"; 
 
 const App = () => {
