@@ -40,20 +40,20 @@ const TestimonialsSection = () => {
 
     let scrollInterval = setInterval(() => {
       if (scrollContainer) {
-        scrollContainer.scrollBy({ left: 300, behavior: "smooth" });
+        scrollContainer.scrollBy({ left: 200, behavior: "smooth" });
 
         if (scrollContainer.scrollLeft >= scrollContainer.scrollWidth / 2) {
           scrollContainer.scrollLeft = 0; // Reset scroll to the beginning
         }
       
       }
-    }, 4000); // Scroll every 4 seconds
+    }, 3000); // Scroll every 3 seconds
 
     return () => clearInterval(scrollInterval); // Cleanup on unmount
   }, []);
 
   return (
-    <section className="py-18 bg-gray-50">
+    <section className="py-14 bg-gray-100">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl font-bold mb-12">What People Are Saying</h2>
 
@@ -63,10 +63,7 @@ const TestimonialsSection = () => {
           className="flex overflow-hidden space-x-5 px-4 snap-x snap-mandatory scroll-smooth"
         >
           {/* Duplicate the testimonials for infinite scrolling */}
-          {[
-            ...testimonials,
-            ...testimonials
-          ].map((testimonial, index) => (
+          {[...testimonials, ...testimonials].map((testimonial, index) => (
             <div
               key={index}
               className="bg-white p-6 rounded-3xl shadow-lg w-[300px] h-[300px] flex-shrink-0 snap-center transition-transform duration-800 hover:scale-105"
