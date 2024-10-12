@@ -1,4 +1,3 @@
-// src/components/FeaturesSection.jsx
 import React from "react";
 
 const features = [
