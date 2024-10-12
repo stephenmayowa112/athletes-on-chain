@@ -10,12 +10,12 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="bg-black p-4">
+    <nav className="bg-black p-4 relative">
       <div className="flex justify-between items-center">
         <div className="text-white text-lg font-bold">Athletes On-Chain</div>
 
         {/* Hamburger Icon */}
-        <div className="md:hidden" onClick={toggleMenu}>
+        <div className="md:hidden cursor-pointer" onClick={toggleMenu}>
           {isOpen ? (
             <FaTimes className="text-white text-2xl" />
           ) : (
@@ -23,12 +23,8 @@ const NavBar = () => {
           )}
         </div>
 
-        {/* Navigation Links */}
-        <ul
-          className={`flex-col md:flex md:flex-row md:space-x-4 transition-all duration-300 ${
-            isOpen ? "block" : "hidden"
-          } md:block`}
-        >
+        {/* Full Nav for larger screens */}
+        <ul className="hidden md:flex md:flex-row md:space-x-4 justify-end items-center">
           <li>
             <a href="/discover" className="text-white hover:text-blue-500">
               Discover
@@ -56,6 +52,61 @@ const NavBar = () => {
           </li>
         </ul>
       </div>
+
+      {/* Overlay Menu for Mobile */}
+      {isOpen && (
+        <div className="fixed inset-0 bg-black bg-opacity-75 z-50 flex flex-col items-center justify-center">
+          <div
+            className="absolute top-4 right-4 cursor-pointer"
+            onClick={toggleMenu}
+          >
+            <FaTimes className="text-white text-2xl" />
+          </div>
+          <ul className="space-y-4">
+            <li>
+              <a
+                href="/discover"
+                className="text-white text-lg hover:text-blue-500"
+                onClick={toggleMenu}
+              >
+                Discover
+              </a>
+            </li>
+            <li>
+              <a
+                href="/events"
+                className="text-white text-lg hover:text-blue-500"
+                onClick={toggleMenu}
+              >
+                Events
+              </a>
+            </li>
+            <li>
+              <a
+                href="/sponsorship"
+                className="text-white text-lg hover:text-blue-500"
+                onClick={toggleMenu}
+              >
+                Sponsorship
+              </a>
+            </li>
+            <li>
+              <a
+                href="/contact"
+                className="text-white text-lg hover:text-blue-500"
+                onClick={toggleMenu}
+              >
+                Contact
+              </a>
+            </li>
+            <li>
+              <button className="bg-blue-500 text-white px-4 py-2 rounded">
+                Check In
+              </button>
+            </li>
+          </ul>
+        </div>
+      )}
     </nav>
   );
 };
