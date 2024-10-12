@@ -8,6 +8,7 @@ import TestimonialsSection from "./components/TestimonialsSection";
 import CTASection from "./components/CTASection";
 import UserProfilesSection from "./components/UserProfilesSection";
 import EventListingsSection from "./components/EventListingsSection";
+import SponsorshipRequestsSection from "./SponsorshipRequestsSection";
 import "./index.css"; 
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
       <CTASection/>
       <UserProfilesSection/>
       <EventListingsSection/>
+      <SponsorshipRequestsSection/>
     </div>
   );
 };
