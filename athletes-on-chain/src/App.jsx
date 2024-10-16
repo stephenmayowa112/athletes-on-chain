@@ -14,18 +14,17 @@ import "./index.css";
 
 const App = () => {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen px-20 custom-gradient flex flex-col">
       <Navbar />
-      <HeroSection/>
-      <FeaturesSection/>
-      <HowItWorksSection/>
-      <TestimonialsSection/>
-      <CTASection/>
-      <UserProfilesSection/>
-      <EventListingsSection/>
-      <SponsorshipRequestsSection/>
-      <Footer/>
-
+      <HeroSection />
+      <FeaturesSection />
+      <HowItWorksSection />
+      <TestimonialsSection />
+      <CTASection />
+      <UserProfilesSection />
+      <EventListingsSection />
+      <SponsorshipRequestsSection />
+      <Footer />
     </div>
   );
 };
