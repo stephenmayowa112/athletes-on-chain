@@ -7,3 +7,23 @@
     background: linear-gradient(to right, #151416, #02030c);
 }
 
+
+/* .container-padding {
+    padding-left: 2rem;
+    
+    padding-right: 2rem;
+}
+
+@media (min-width: 768px) {
+    .container-padding {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container-padding {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+} */

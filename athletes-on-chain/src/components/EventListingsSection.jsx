@@ -31,14 +31,14 @@ const events = [
 
 const EventListingsSection = () => {
   return (
-    <section className="py-16 custom-gradient">
+    <section className="py-16 text-gray-100 custom-gradient">
       <div className="container mx-auto text-center px-4">
         <h2 className="text-3xl  text-white font-bold mb-8">Upcoming Events</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {events.map((event, index) => (
             <div
               key={index}
-              className="bg-gray-300 p-6 rounded-lg hover:bg-blue-200 hover:scale-105 shadow-lg hover:shadow-xl transition-shadow duration-300"
+              className="bg-[#1b1a1a] p-6 rounded-lg hover:bg-[#3c3b3b] hover:scale-105 shadow-lg hover:shadow-xl transition-shadow duration-300"
             >
               <img
                 src={event.image}
@@ -46,9 +46,9 @@ const EventListingsSection = () => {
                 className="w-full h-48 object-cover rounded-lg mb-4"
               />
               <h3 className="text-xl font-semibold mb-2">{event.name}</h3>
-              <p className="text-gray-600 mb-2">{event.date}</p>
-              <p className="text-gray-600 mb-2">{event.location}</p>
-              <p className="text-gray-700">{event.description}</p>
+              <p className="text-[#c4d14e] mb-2">{event.date}</p>
+              <p className="text-[#c4d14e] mb-2">{event.location}</p>
+              <p className="text-gray-100">{event.description}</p>
               <a
                 href="/event"
                 className="block bg-blue-600 text-white mt-4 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-300"

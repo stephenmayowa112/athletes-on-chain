@@ -31,15 +31,15 @@ const FeaturesSection = () => {
   return (
     <section className="py-16 custom-gradient">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl font-bold text-white mb-8">Features</h2>
+        <h2 className="text-3xl font-bold text-gray-100 mb-8">Features</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (
             <div
               key={index}
-              className="bg-gray-300 hover:bg-blue-200 hover:scale-105 shadow-lg rounded-lg p-6"
+              className="bg-[#1b1a1a] hover:bg-[#3c3b3b] text-gray-100 hover:scale-105 shadow-lg rounded-lg p-6"
             >
               <div className="text-4xl mb-4">{feature.icon}</div>
-              <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
+              <h3 className="text-xl  font-semibold mb-2">{feature.title}</h3>
               <p>{feature.description}</p>
             </div>
           ))}

@@ -53,22 +53,20 @@ const TestimonialsSection = () => {
   }, []);
 
   return (
-    <section className="py-14 custom-gradient">
+    <section className="py-14 text-gray-100 custom-gradient">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl text-white font-bold mb-12">
-          What People Are Saying
-        </h2>
+        <h2 className="text-3xl font-bold mb-12">What People Are Saying</h2>
 
         {/* Horizontal scrolling with smooth animation */}
         <div
           ref={scrollContainerRef}
-          className="flex overflow-hidden space-x-5 px-4 snap-x snap-mandatory scroll-smooth"
+          className="flex overflow-hidden text-gray-100 space-x-5 px-4 snap-x snap-mandatory scroll-smooth"
         >
           {/* Duplicate the testimonials for infinite scrolling */}
           {[...testimonials, ...testimonials].map((testimonial, index) => (
             <div
               key={index}
-              className="bg-gray-300 hover:bg-[#D8B5FF] p-4 rounded-3xl shadow-lg w-[300px] h-[300px] flex-shrink-0 snap-center transition-transform duration-800 hover:scale-105"
+              className="bg-[#1b1a1a] hover:bg-[#3c3b3b] p-4 rounded-3xl shadow-lg w-[300px] h-[300px] flex-shrink-0 snap-center transition-transform duration-800 hover:scale-105"
             >
               <img
                 src={testimonial.image}
@@ -76,8 +74,10 @@ const TestimonialsSection = () => {
                 className="w-24 h-26 rounded-full mx-auto mb-4"
               />
               <h3 className="text-xl font-semibold mb-2">{testimonial.name}</h3>
-              <p className="text-sm text-gray-600 mb-2">{testimonial.role}</p>
-              <p className="text-gray-700">"{testimonial.quote}"</p>
+              <p className="text-sm text-gray-100 mb-2">
+                {testimonial.role}
+              </p>
+              <p className="text-gray-100">"{testimonial.quote}"</p>
             </div>
           ))}
         </div>
