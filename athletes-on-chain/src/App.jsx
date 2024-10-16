@@ -14,7 +14,7 @@ import "./index.css";
 
 const App = () => {
   return (
-    <div className="min-h-screen px-25 custom-gradient flex flex-col">
+    <div className="min-h-screen px-8 md:px-16 lg:px-34 custom-gradient flex flex-col">
       <Navbar />
       <HeroSection />
       <FeaturesSection />
