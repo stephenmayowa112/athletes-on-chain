@@ -54,10 +54,12 @@ const SponsorshipRequestsSection = () => {
           {sponsorships.map((sponsorship, index) => (
             <div
               key={index}
-              className="bg-gray-300 hover:bg-blue-200 hover:scale-105 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
+              className="bg-[#1b1a1a] hover:bg-[#3c3b3b] hover:scale-105 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
             >
-              <h3 className="text-xl font-semibold mb-2">{sponsorship.name}</h3>
-              <p className="text-gray-700 mb-2">{sponsorship.description}</p>
+              <h3 className="text-xl text-gray-100 font-semibold mb-2">
+                {sponsorship.name}
+              </h3>
+              <p className="text-gray-100 mb-2">{sponsorship.description}</p>
               <p className="text-green-600 font-bold">
                 Amount: {sponsorship.amount}
               </p>
@@ -66,13 +68,13 @@ const SponsorshipRequestsSection = () => {
         </div>
 
         {/* Sponsorship Request Form */}
-        <div className="bg-gray-300 p-6 rounded-lg shadow-lg max-w-lg mx-auto">
+        <div className=" p-6 rounded-lg shadow-lg max-w-lg mx-auto">
           <h3 className="text-xl font-semibold mb-4 text-center">
             Request Sponsorship
           </h3>
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
-              <label className="block text-gray-700">Name</label>
+              <label className="block text-gray-200">Name</label>
               <input
                 type="text"
                 name="name"
@@ -83,7 +85,7 @@ const SponsorshipRequestsSection = () => {
               />
             </div>
             <div>
-              <label className="block text-gray-700">Email</label>
+              <label className="block text-gray-200">Email</label>
               <input
                 type="email"
                 name="email"
@@ -94,7 +96,7 @@ const SponsorshipRequestsSection = () => {
               />
             </div>
             <div>
-              <label className="block text-gray-700">
+              <label className="block text-gray-200">
                 Why do you need sponsorship?
               </label>
               <textarea
