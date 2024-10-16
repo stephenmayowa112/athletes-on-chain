@@ -55,7 +55,9 @@ const TestimonialsSection = () => {
   return (
     <section className="py-14 custom-gradient">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-12">What People Are Saying</h2>
+        <h2 className="text-3xl text-white font-bold mb-12">
+          What People Are Saying
+        </h2>
 
         {/* Horizontal scrolling with smooth animation */}
         <div
@@ -66,7 +68,7 @@ const TestimonialsSection = () => {
           {[...testimonials, ...testimonials].map((testimonial, index) => (
             <div
               key={index}
-              className="bg-white p-6 rounded-3xl shadow-lg w-[300px] h-[300px] flex-shrink-0 snap-center transition-transform duration-800 hover:scale-105"
+              className="bg-gray-300 hover:bg-[#D8B5FF] p-4 rounded-3xl shadow-lg w-[300px] h-[300px] flex-shrink-0 snap-center transition-transform duration-800 hover:scale-105"
             >
               <img
                 src={testimonial.image}

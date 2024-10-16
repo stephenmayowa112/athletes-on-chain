@@ -33,12 +33,12 @@ const EventListingsSection = () => {
   return (
     <section className="py-16 custom-gradient">
       <div className="container mx-auto text-center px-4">
-        <h2 className="text-3xl font-bold mb-8">Upcoming Events</h2>
+        <h2 className="text-3xl  text-white font-bold mb-8">Upcoming Events</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {events.map((event, index) => (
             <div
               key={index}
-              className="bg-gray-100 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
+              className="bg-gray-300 p-6 rounded-lg hover:bg-blue-200 hover:scale-105 shadow-lg hover:shadow-xl transition-shadow duration-300"
             >
               <img
                 src={event.image}

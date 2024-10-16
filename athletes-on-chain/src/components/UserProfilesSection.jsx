@@ -26,12 +26,12 @@ const UserProfilesSection = () => {
   return (
     <section className="py-16 custom-gradient">
       <div className="container mx-auto text-center px-4">
-        <h2 className="text-3xl font-bold mb-8">Meet the Talent</h2>
+        <h2 className="text-3xl text-white font-bold mb-8">Meet the Talent</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {profiles.map((profile, index) => (
             <div
               key={index}
-              className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
+              className="bg-gray-300 hover:bg-blue-200 hover:scale-105 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
             >
               <img
                 src={profile.image}

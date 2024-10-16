@@ -45,7 +45,7 @@ const SponsorshipRequestsSection = () => {
   return (
     <section className="py-16 custom-gradient">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 text-center">
+        <h2 className="text-3xl font-bold text-white mb-8 text-center">
           Sponsorship Opportunities
         </h2>
 
@@ -54,7 +54,7 @@ const SponsorshipRequestsSection = () => {
           {sponsorships.map((sponsorship, index) => (
             <div
               key={index}
-              className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
+              className="bg-gray-300 hover:bg-blue-200 hover:scale-105 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
             >
               <h3 className="text-xl font-semibold mb-2">{sponsorship.name}</h3>
               <p className="text-gray-700 mb-2">{sponsorship.description}</p>
@@ -66,7 +66,7 @@ const SponsorshipRequestsSection = () => {
         </div>
 
         {/* Sponsorship Request Form */}
-        <div className="bg-white p-6 rounded-lg shadow-lg max-w-lg mx-auto">
+        <div className="bg-gray-300 p-6 rounded-lg shadow-lg max-w-lg mx-auto">
           <h3 className="text-xl font-semibold mb-4 text-center">
             Request Sponsorship
           </h3>
