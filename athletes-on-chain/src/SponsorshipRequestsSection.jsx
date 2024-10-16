@@ -74,18 +74,18 @@ const SponsorshipRequestsSection = () => {
           </h3>
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
-              <label className="block text-gray-200">Name</label>
+              <label className="block text-gray-300">Name</label>
               <input
                 type="text"
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
-                className="w-full px-4 py-2 rounded-lg border border-gray-300"
+                className="w-full px-4 py-2 rounded-lg border border-gray-100"
                 required
               />
             </div>
             <div>
-              <label className="block text-gray-200">Email</label>
+              <label className="block text-gray-300">Email</label>
               <input
                 type="email"
                 name="email"

@@ -29,7 +29,7 @@ const features = [
 
 const FeaturesSection = () => {
   return (
-    <section className="py-16 custom-gradient">
+    <section className="py-16 mt-0 custom-gradient">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl font-bold text-gray-100 mb-8">Features</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

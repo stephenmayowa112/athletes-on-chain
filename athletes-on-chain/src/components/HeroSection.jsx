@@ -2,7 +2,7 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <section className="custom-gradient text-white min-h-screen flex flex-col justify-center items-center text-center p-1">
+    <section className="custom-gradient text-white min-h-screen flex flex-col justify-center items-center text-center py-6">
       <h1 className="text-4xl md:text-6xl font-bold mb-4">
         Welcome to Athletes On-Chain
       </h1>
