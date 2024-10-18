@@ -1,6 +1,12 @@
 // src/components/NavBar.jsx
 import React, { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa"; // Import icons from React Icons
+import { FaBars, FaTimes } from "react-icons/fa"; 
+import HowItWorksSection from "./HowItWorksSection";
+import EventListingsSection from "./EventListingsSection";
+import SponsorshipRequestsSection from "../SponsorshipRequestsSection";
+import Footer from "../Footer";
+
+
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,22 +32,31 @@ const NavBar = () => {
         {/* Full Nav for larger screens */}
         <ul className="hidden md:flex md:flex-row md:space-x-4 justify-end items-center">
           <li>
-            <a href="/discover" className="text-white hover:text-blue-500">
+            <a
+              href="./HowItWorksSection"
+              className="text-white hover:text-blue-500"
+            >
               Discover
             </a>
           </li>
           <li>
-            <a href="/events" className="text-white hover:text-blue-500">
+            <a
+              href="./EventListingsSection"
+              className="text-white hover:text-blue-500"
+            >
               Events
             </a>
           </li>
           <li>
-            <a href="/sponsorship" className="text-white hover:text-blue-500">
+            <a
+              href="../SponsorshipRequestsSection"
+              className="text-white hover:text-blue-500"
+            >
               Sponsorship
             </a>
           </li>
           <li>
-            <a href="/contact" className="text-white hover:text-blue-500">
+            <a href="../Footer" className="text-white hover:text-blue-500">
               Contact
             </a>
           </li>

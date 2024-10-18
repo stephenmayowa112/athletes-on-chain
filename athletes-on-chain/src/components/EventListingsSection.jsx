@@ -8,7 +8,7 @@ const events = [
     location: "London, UK",
     description:
       "Join top scouts to discover rising football talent in the UK.",
-    image: "/path/to/london-event.jpg",
+    image: "/images/pexels-kampus-8941651.jpg",
   },
   {
     name: "African Football Academy Tournament",
@@ -16,7 +16,7 @@ const events = [
     location: "Lagos, Nigeria",
     description:
       "Showcase your skills in one of the biggest football tournaments in Africa.",
-    image: "/path/to/lagos-event.jpg",
+    image: "/images/pexels-kampus-8941651.jpg",
   },
   {
     name: "Youth Soccer Cup",
@@ -24,7 +24,7 @@ const events = [
     location: "New York, USA",
     description:
       "Compete in the annual Youth Soccer Cup and catch the attention of global scouts.",
-    image: "/path/to/ny-event.jpg",
+    image: "/images/pexels-kampus-8941651.jpg",
   },
   // Add more events as needed
 ];

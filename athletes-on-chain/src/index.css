@@ -8,13 +8,14 @@
 }
 
 
+
 .hero-background {
-    background-image: url("/athletes-on-chain/public/images/pexels-dream-3306490.jpg");
+    background-image: url('/athletes-on-chain/public/images/pexels-dream-3306490.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    z-index: 3;
 }
-
 
 
 
