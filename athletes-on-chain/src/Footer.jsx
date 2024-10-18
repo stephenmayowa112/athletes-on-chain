@@ -21,7 +21,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="/discover"
+                  href="#fiit"
                   className="hover:text-blue-400 transition-colors duration-300"
                 >
                   Discover
@@ -29,7 +29,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="/events"
+                  href="#events"
                   className="hover:text-blue-400 transition-colors duration-300"
                 >
                   Events
@@ -37,7 +37,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="/sponsorship"
+                  href="#sponsor"
                   className="hover:text-blue-400 transition-colors duration-300"
                 >
                   Sponsorship
@@ -45,7 +45,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="/contact"
+                  href="#footer"
                   className="hover:text-blue-400 transition-colors duration-300"
                 >
                   Contact
@@ -112,7 +112,7 @@ const Footer = () => {
                   href="tel:+1234567890"
                   className="hover:text-blue-400 transition-colors duration-300"
                 >
-                  +123 456 7890
+                  +234 811 538 3780
                 </a>
               </li>
               <li>Location: 123 Football Ave, Sport City</li>
