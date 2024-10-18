@@ -1,10 +1,7 @@
 // src/components/NavBar.jsx
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa"; 
-import HowItWorksSection from "./HowItWorksSection";
-import EventListingsSection from "./EventListingsSection";
-import SponsorshipRequestsSection from "../SponsorshipRequestsSection";
-import Footer from "../Footer";
+
 
 
 

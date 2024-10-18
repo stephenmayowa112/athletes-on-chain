@@ -8,7 +8,7 @@ const events = [
     location: "London, UK",
     description:
       "Join top scouts to discover rising football talent in the UK.",
-    image: "/images/pexels-kampus-8941651.jpg",
+    image: "/images/brithish flag.jpeg",
   },
   {
     name: "African Football Academy Tournament",
@@ -16,7 +16,7 @@ const events = [
     location: "Lagos, Nigeria",
     description:
       "Showcase your skills in one of the biggest football tournaments in Africa.",
-    image: "/images/pexels-kampus-8941651.jpg",
+    image: "/images/afc.jpeg",
   },
   {
     name: "Youth Soccer Cup",
@@ -31,7 +31,7 @@ const events = [
 
 const EventListingsSection = () => {
   return (
-    <section className="py-16 text-gray-100 custom-gradient">
+    <section id="events" className="py-16 text-gray-100 custom-gradient">
       <div className="container mx-auto text-center px-4">
         <h2 className="text-3xl  text-white font-bold mb-8">Upcoming Events</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

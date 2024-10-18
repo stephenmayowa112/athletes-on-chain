@@ -5,6 +5,7 @@
 
 .custom-gradient {
     background: linear-gradient(to right, #151416, #02030c);
+    z-index: 1;
 }
 
 
