@@ -30,7 +30,7 @@ const NavBar = () => {
         <ul className="hidden md:flex md:flex-row md:space-x-4 justify-end items-center">
           <li>
             <a
-              href="./HowItWorksSection"
+              href="#fiit"
               className="text-white hover:text-blue-500"
             >
               Discover
@@ -38,7 +38,7 @@ const NavBar = () => {
           </li>
           <li>
             <a
-              href="./EventListingsSection"
+              href="#events"
               className="text-white hover:text-blue-500"
             >
               Events
@@ -46,14 +46,14 @@ const NavBar = () => {
           </li>
           <li>
             <a
-              href="../SponsorshipRequestsSection"
+              href="#sponsor"
               className="text-white hover:text-blue-500"
             >
               Sponsorship
             </a>
           </li>
           <li>
-            <a href="../Footer" className="text-white hover:text-blue-500">
+            <a href="#footer" className="text-white hover:text-blue-500">
               Contact
             </a>
           </li>

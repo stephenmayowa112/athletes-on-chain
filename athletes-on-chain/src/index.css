@@ -9,6 +9,9 @@
 }
 
 
+html {
+    scroll-behavior: smooth;
+}
 
 .hero-background {
     background-image: url('/athletes-on-chain/public/images/pexels-dream-3306490.jpg');
