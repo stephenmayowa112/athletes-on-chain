@@ -6,28 +6,28 @@ const testimonials = [
     role: "Aspiring Footballer",
     quote:
       "Athletes On-Chain has given me the opportunity to connect with top scouts and showcase my skills on a global stage.",
-    image: "/path/to/john-image.jpg",
+    image: "/images/man1.jpeg",
   },
   {
     name: "Jane Smith",
     role: "Professional Scout",
     quote:
       "This platform has revolutionized the way we discover talent. The transparency and data-driven insights are game-changers.",
-    image: "/path/to/jane-image.jpg",
+    image: "/images/woman1.jpeg",
   },
   {
     name: "Mike Johnson",
     role: "Football Coach",
     quote:
       "The tools provided by Athletes On-Chain have made talent development much more efficient for our academy.",
-    image: "/path/to/mike-image.jpg",
+    image: "/images/man2.jpeg",
   },
   {
     name: "Sarah Williams",
     role: "Sports Enthusiast",
     quote:
       "As a fan, I love how easy it is to follow and support upcoming talent on the platform.",
-    image: "/path/to/sarah-image.jpg",
+    image: "/images/woman2.jpeg",
   },
   // Add more testimonials here as needed
 ];
