@@ -15,7 +15,11 @@ const NavBar = () => {
   return (
     <nav className="bg-gray-900 p-4 fixed top-0 left-0 w-full z-50">
       <div className="flex justify-between items-center">
-        <div className="text-white text-lg font-bold">Athletes On-Chain</div>
+        <div className="text-white text-lg font-bold">
+          <a href="#hero">
+          Athletes On-Chain
+          </a>
+          </div>
 
         {/* Hamburger Icon */}
         <div className="md:hidden cursor-pointer" onClick={toggleMenu}>
