@@ -5,19 +5,19 @@ const profiles = [
     name: "David Beckham",
     role: "Professional Scout",
     bio: "Discovering the next generation of football stars. Currently scouting for top talent across Europe.",
-    image: "/path/to/beckham-image.jpg",
+    image: "/images/beckam.jpeg",
   },
   {
     name: "Marta Silva",
     role: "Football Coach",
     bio: "Passionate about coaching and developing young footballers to reach their full potential.",
-    image: "/path/to/marta-image.jpg",
+    image: "/images/silva.jpeg",
   },
   {
     name: "Lionel Messi",
     role: "Aspiring Footballer",
     bio: "Working hard every day to become a professional footballer. Dreaming big and taking the steps to get there.",
-    image: "/path/to/messi-image.jpg",
+    image: "images/messi.jpeg",
   },
   // Add more profiles as needed
 ];
