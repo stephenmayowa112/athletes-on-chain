@@ -3,14 +3,14 @@ import React from "react";
 const profiles = [
   {
     name: "David Ade",
-    role: "Professional Scout",
-    bio: "Discovering the next generation of football stars. Currently scouting for top talent across Europe.",
+    role: "Football Coach",
+    bio: "Passionate about coaching and developing young footballers to reach their full potential.",
     image: "/images/pexels-thirdman-5247132.jpg",
   },
   {
     name: "Moses Mell",
-    role: "Football Coach",
-    bio: "Passionate about coaching and developing young footballers to reach their full potential.",
+    role: "Professional Scout",
+    bio: "Discovering the next generation of football stars. Currently scouting for top talent across Europe.",
     image: "/images/pexels-simon-robben-55958-614810.jpg",
   },
   {
