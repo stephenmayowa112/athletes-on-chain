@@ -2,22 +2,22 @@ import React from "react";
 
 const profiles = [
   {
-    name: "David Beckham",
+    name: "David Ade",
     role: "Professional Scout",
     bio: "Discovering the next generation of football stars. Currently scouting for top talent across Europe.",
-    image: "/images/beckam.jpeg",
+    image: "/images/pexels-thirdman-5247132.jpg",
   },
   {
-    name: "Marta Silva",
+    name: "Moses Mell",
     role: "Football Coach",
     bio: "Passionate about coaching and developing young footballers to reach their full potential.",
-    image: "/images/silva.jpeg",
+    image: "/images/pexels-simon-robben-55958-614810.jpg",
   },
   {
-    name: "Lionel Messi",
+    name: "Timothy  Neil",
     role: "Aspiring Footballer",
     bio: "Working hard every day to become a professional footballer. Dreaming big and taking the steps to get there.",
-    image: "images/messi.jpeg",
+    image: "/images/pexels-kampus-8941656.jpg",
   },
   // Add more profiles as needed
 ];
