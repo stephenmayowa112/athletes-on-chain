@@ -19,6 +19,12 @@ const profiles = [
     bio: "Working hard every day to become a professional footballer. Dreaming big and taking the steps to get there.",
     image: "/images/pexels-kampus-8941656.jpg",
   },
+  {
+    name: "David Adamu",
+    role: "Aspiring Footballer",
+    bio: "Playing as a professional footballer is my passion",
+    image: "/images/david.jpg",
+  },
   // Add more profiles as needed
 ];
 
