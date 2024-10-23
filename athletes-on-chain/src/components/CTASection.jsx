@@ -12,7 +12,7 @@ const CTASection = () => {
         </p>
         <a
           href="/signup"
-          className="bg-white text-blue-500 px-8 py-3 rounded-full font-semibold text-lg hover:bg-gray-200 transition-colors duration-300"
+          className="md:flex-row md:space-x-1 bg-white text-blue-500 px-8 py-3 rounded-full font-semibold text-lg hover:bg-gray-200 transition-colors duration-300"
         >
           Get Started
         </a>
